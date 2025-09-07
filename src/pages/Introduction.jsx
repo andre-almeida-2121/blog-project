@@ -1,6 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import {
+  FaBookOpen,
+  FaPenNib,
+  FaGlobeEurope,
+  FaHandshake,
+  FaStar,
+} from "react-icons/fa";
 import "../style.css";
+import { FaP } from "react-icons/fa6";
 
 const Introduction = () => {
   return (
@@ -22,6 +30,7 @@ const Introduction = () => {
         <h2>1. Como funciona?</h2>
         <div className="intro-cards">
           <div className="card">
+            <FaBookOpen className="icon" />
             <h3>1. Crie sua conta</h3>
             <p>
               Registre-se para salvar suas histórias e ter seu próprio perfil de
@@ -29,10 +38,12 @@ const Introduction = () => {
             </p>
           </div>
           <div className="card">
+            <FaPenNib className="icon" />
             <h3>2. Escreva e organize</h3>
             <p>Adicione sinopse, capítulos e volumes do jeito que quiser.</p>
           </div>
           <div className="card">
+            <FaGlobeEurope className="icon" />
             <h3>3. Compartilhe com o mundo</h3>
             <p>
               Leitores podem acompanhar suas histórias capítulo por capítulo.
@@ -45,7 +56,7 @@ const Introduction = () => {
       <section className="intro-section">
         <h2>2. Exemplo visual</h2>
         <div className="example-card">
-          <img src="https://via.placeholder.com/120x160" alt="Capa do Livro" />
+          <img src="https://picsum.photos/seed/997/600" alt="Capa do Livro" />
           <div className="example-info">
             <h3>Título do Livro</h3>
             <p>
@@ -69,14 +80,17 @@ const Introduction = () => {
         <h2>3. Diferenciais</h2>
         <div className="intro-cards">
           <div className="card">
+            <FaStar className="icon" />
             <h3>Organização flexível</h3>
             <p>Organize capítulos, volumes, sinopse e até personagens.</p>
           </div>
           <div className="card">
+            <FaPenNib className="icon" />
             <h3>Foco na escrita</h3>
             <p>Editor simples, mas completo.</p>
           </div>
           <div className="card">
+            <FaHandshake className="icon" />
             <h3>Compartilhe com seus amigos</h3>
             <p>
               Permite que outras pessoas possam ler e comentar suas histórias.
