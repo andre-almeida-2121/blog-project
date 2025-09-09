@@ -6,7 +6,7 @@ import {
   FaGlobeEurope,
   FaHandshake,
   FaStar,
-  FaArrowRight,
+  FaLongArrowAltRight,
 } from "react-icons/fa";
 import "../style.css";
 import { FaP } from "react-icons/fa6";
@@ -25,6 +25,7 @@ const Introduction = () => {
       </header>
 
       <hr className="line-between" />
+
       <main className="intro-main">
         {/* Seção 1: Como funciona */}
         <section className="intro-section">
@@ -38,13 +39,13 @@ const Introduction = () => {
                 de autor.
               </p>
             </div>
-            <FaArrowRight />
+            <FaLongArrowAltRight className="arrow-icon" />
             <div className="card">
               <FaPenNib className="icon" />
               <h3>2. Escreva e organize</h3>
               <p>Adicione sinopse, capítulos e volumes do jeito que quiser.</p>
             </div>
-            <FaArrowRight />
+            <FaLongArrowAltRight className="arrow-icon" />
             <div className="card">
               <FaGlobeEurope className="icon" />
               <h3>3. Compartilhe com o mundo</h3>
